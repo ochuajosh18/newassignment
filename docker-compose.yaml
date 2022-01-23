@@ -1,7 +1,7 @@
 version : '3'
 services: 
-  nodejs-loginform:
-  build: /home/joshua/newassignment
-  image: "dockercompose/newassignment:v1"
+  webserver:
+  image: newassignment
+    restart: always
     ports:
-        "30022:30022 "
+       - "30022:30022 "
