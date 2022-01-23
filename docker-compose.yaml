@@ -5,4 +5,4 @@ services:
   image: ${newassignment}
   restart: always
     ports:
-       - "30022:30022 "
+       - "30022"
