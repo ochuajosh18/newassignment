@@ -1,0 +1,7 @@
+version : '3'
+services: 
+  nodejs-loginform:
+  build: /home/joshua/newassignment
+  image: "dockercompose/newassignment:v1"
+    ports:
+        "30022:30022 "
