@@ -4,4 +4,6 @@ services:
   build:
    context: ./
   image: imgnewassignment
+  ports:
+   - "30022"
   
