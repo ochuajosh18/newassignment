@@ -2,6 +2,6 @@ version : '3'
 services: 
  newassignment:
   build:
-   context: ./newassignment
+   context: ./
   image: imgnewassignment
   
