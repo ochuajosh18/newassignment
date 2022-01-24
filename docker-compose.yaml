@@ -5,5 +5,5 @@ services:
    context: ./
   image: imgnewassignment
   ports:
-   - "30022:30022"
+   - "30023:30022"
   
