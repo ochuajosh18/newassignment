@@ -1,8 +1,7 @@
 version : '3'
-
 services: 
-  newassignment:
-  image: ${newassignment}
-  restart: always
-    ports:
-       - "30022"
+ newassignment:
+  build:
+   context: ./newassignment
+  image: imgnewassignment
+  
